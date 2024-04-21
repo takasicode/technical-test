@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+## Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project ini merupakan Technical Test pada posisi Front-End Developer (React) di PT Sekawan Media Informatika. Project Technical Test menggunakan React JS `v18.2.0` dan Node JS `v16.16.0`.
 
-## Available Scripts
+## Run Locally
 
-In the project directory, you can run:
+Clone the project
 
-### `npm start`
+```bash
+  git clone https://github.com/takasicode/technical-test
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go to the project directory
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+  cd technical-test
+```
 
-### `npm test`
+Install dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  npm install
+```
 
-### `npm run build`
+Start the server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Login
 
-### `npm run eject`
+- Email is required
+- Password minimum 8 characters
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Manage User Permission
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Role as Admin (can access all feature)
+- Role as Guest (only create ticket)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Overview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Total Unresolved
+- Total Overview
+- Total Open
+- Total On Hold
+- Tickets graph in 1 year
+- List Unresolved Tickets
+- List Task Terbaru
+- Search Box to search for Tasks
+- The Notification Pane contains notification data from tickets that have been submitted
+- Profile Icon
 
-## Learn More
+### Tickects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- List Tickets
+- Pagination, Filter dan Sort Tickets
+- Detail Tickets with action Approve or Reject Tickets (additional page can be a plus point)
+- Action Button Create Tickets and Form
+- Action Button Approve Tickets or Reject Tickets
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Language
 
-### Code Splitting
+Applications created using the i18next language library with default EN.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Theme
 
-### Analyzing the Bundle Size
+The application has a theme feature to set the application mode to Dark or Light.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Users Account
 
-### Making a Progressive Web App
+### Admin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Email : Fadhil.Admin29@gmail.com \
+Password : 0fea3AYL62aePc5
 
-### Advanced Configuration
+### Guest
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Email : Susie.Guest30@gmail.com \
+Password : 9lC3NwNFKXGBXv7
 
-### Deployment
+## Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Admin
 
-### `npm run build` fails to minify
+Login Page
+![App Screenshot](./public/images/screenshot/screencapture-login.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overview Page
+![App Screenshot](./public/images/screenshot/screencapture-overview-admin.png)
+
+Tickets Page
+![App Screenshot](./public/images/screenshot/screencapture-tickets-admin.png)
+
+Details Tickets Page
+![App Screenshot](./public/images/screenshot/screencapture-detail-tickets-admin.png)
+
+### Guest
+
+Tickets Page
+![App Screenshot](./public/images/screenshot/screencapture-tickets-guest.png)
+
+Create Tickets Page
+![App Screenshot](./public/images/screenshot/screencapture-create-tickets-guest.png)
+
+## Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=react,bootstrap,sass,nodejs)](https://github.com/takasicode/technical-test)
