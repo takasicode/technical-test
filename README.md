@@ -86,7 +86,7 @@ Password : 9lC3NwNFKXGBXv7
 ### Admin
 
 Login Page
-![App Screenshot](./src/assets/assets/images/screenshot/screencapture-login.png)
+![App Screenshot](./src/assets/images/screenshot/screencapture-login.png)
 
 Overview Page
 ![App Screenshot](./src/assets/images/screenshot/screencapture-overview-admin.png)
@@ -95,7 +95,7 @@ Tickets Page
 ![App Screenshot](./src/assets/images/screenshot/screencapture-tickets-admin.png)
 
 Details Tickets Page
-![App Screenshot](./src/assets/images/screenshotscreencapture-detail-tickets-admin.png)
+![App Screenshot](./src/assets/images/screenshot/screencapture-detail-tickets-admin.png)
 
 ### Guest
 
